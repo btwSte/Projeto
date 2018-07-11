@@ -1,0 +1,607 @@
+/*PADRÃO*/
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:link {
+    color: #000;
+  }
+
+  /* link visitado*/
+  a:visited {
+    color: #555;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: #a6a6a6;
+  }
+
+  #principal {
+    width: 100%;
+    height: auto;
+  }
+
+  /*HEADER */
+  header {
+    height: 295px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+   border-radius: 50px 50px 0 0;
+   border-bottom: solid 2px #000;
+  }
+
+  #segura_titulo_logo {
+    width: 1200px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid 2px #000;
+  }
+
+
+  /*TITULO*/
+  #titulo {
+    float: left;
+    width: 600px;
+    height: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  /*LOGO*/
+  #logo {
+    float: right;
+    width: 400px;
+    height: 60px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 20px;
+  }
+
+  /*MENU*/
+  nav {
+    width: 1200px;
+    height: 180px;
+  }
+
+  #menu_nav {
+    float: left;
+    width: 700px;
+    height: 165px;
+  }
+
+  #texto_nav{
+    float: left;
+    width: 405px;
+    height: 165px;
+  }
+
+  .item_menu{
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .img_menu {
+    float: left;
+    width: 100px;
+    height: 100px;
+  }
+
+  .img_menu img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .txt_menu{
+    text-align: center;
+    width: 100px;
+    height:  143px;
+  }
+
+  #txt_user{
+    height: 50px;
+    width: 400px;
+    padding-top: 20px;
+    text-transform: uppercase;
+  }
+
+  #txt_sair{
+    height: 30px;
+    width: 100px;
+    margin-top: 50px;
+    text-align: right;
+    padding-top: 20px;
+    margin-left: 290px;
+  }
+
+  /*RODAPÉ*/
+  footer {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    border-radius: 0 0 50px 50px;
+  }
+
+  #txt_footer {
+    width: 400px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+  }
+
+  #txt_footer p {
+    margin: 0;
+    padding: 0;
+  }
+
+/*FIM DO PADRÃO*/
+
+/* INICIO HOME*/
+  #homeCMS {
+    width: 1200px;
+    height: 370px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .item_main {
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    height: 180px;
+    width: 185px;
+    text-align: center;
+  }
+
+  .item_img img {
+    width: 100px;
+    height: 100px;
+  }
+
+  #alinha_itens{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 200px;
+  }
+/*FIM HOME*/
+
+
+
+/*INICIO FALE CONOSCO*/
+  #fale_conoscoCMS {
+    width: 1200px;
+    min-height: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #contato {
+    width: 1200px;
+    height: 600px;
+    overflow: auto;
+  }
+
+  #div_tit {
+    text-align: center;
+  }
+
+  #div_tit h1{
+    margin: 0;
+    padding: 0;
+  }
+
+  #div_titulos {
+    height: 50px;
+    width: 1200px;
+  }
+
+  .tit {
+    float: left;
+    padding: 15px;
+    min-width: 200px;
+    width: auto;
+    margin-left: 6px;
+  }
+
+  #div_linha {
+    min-height: 50px;
+    height: auto;
+    width: 1200px;
+  }
+
+  .item_fale_conosco {
+    float: left;
+    padding: 15px;
+    min-width: 200px;
+    width: auto;
+    margin-left: 6px;
+    overflow: auto;
+  }
+
+  .item_fale_conosco a {
+    text-decoration: none;
+  }
+
+  .img_fale_conosco {
+    float: left;
+    padding: 10px;
+    margin-left: 15px;
+  }
+
+/*FIM FALE CONOSCO*/
+
+/*INICIO USUARIO*/
+  /*CMS de usuario*/
+    #div_linha_user {
+      display: flex;
+      height: 65px;
+    }
+
+    #main_user_cadCMS {
+      width: 1200px;
+      height: 600px;
+      margin: auto;
+      overflow: auto;
+    }
+
+    .img_user_cad {
+      display: flex;
+      width: 40px;
+      margin: 5px;
+      padding: 5px;
+      align-self: center;
+    }
+
+    #div_titulos_user{
+      height: 50px;
+      width: 1200px;
+      display: flex;
+    }
+
+    .tit_user{
+      display: flex;
+      padding: 15px;
+      width: 210px;
+      margin-left: 6px;
+    }
+
+    /*Itens tela de usuario*/
+    .item_user_cad {
+      display: flex;
+      flex-wrap: wrap;
+      width: 210px;
+      padding: 15px;
+      margin-left: 6px;
+      height: 20px;
+      margin-top: 10px;
+    }
+
+    /*alinha itens*/
+    #alinha_itens_user {
+      width: 400px;
+      height: 200px;
+      margin: auto;
+    }
+
+
+    /*OPCOES DE USUARIOS*/
+      .item_user{
+        float: left;
+        padding: 15px;
+        margin-left: 5px;
+        margin-top: 5px;
+        width: 200px;
+      }
+
+      #main_user{
+        width: 1200px;
+        height: 300px;
+        margin: auto;
+      }
+
+      #alinha_itens_userH{
+        width: 600px;
+        margin: auto;
+        height: 500px;
+      }
+
+
+  /*cms de novo usuario*/
+    /* main novo user*/
+      #main_novo_user {
+        width: 1200px;
+        min-height: 300px;
+        height: auto;
+        margin: auto;
+      }
+
+    /* ITENS ALINHADO A DIREITA */
+      .form_itens_ud {
+        float: right;
+        width: 600px;
+      }
+
+    /* itens alinhado à esquerda */
+      .form_itens_ue {
+        float: left;
+        width: 600px;
+      }
+
+    /* botao / alinhar ao centro */
+      .form_itens_btn {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+
+    /* Segura o formulario*/
+      #form_div {
+        width: 1200px;
+        min-height: 300px;
+        height: auto;
+      }
+
+    /*Titulo do formulario*/
+      #tit_novo_user{
+        font-size: 21px;
+        text-align: center;
+        margin: auto;
+      }
+
+    /*Textos do form*/
+      .text {
+        text-align: center;
+        padding: 6px 0;
+      }
+
+      #container_campos {
+        width: 1200px;
+        min-height: 200px;
+        height: auto;
+      }
+/*FIM USUARIO*/
+
+/*MODA DO VERAO*/
+  #main_moda_veraoCMS{
+    width: 1200px;
+    min-height: 370px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*div de imagens de edição dos dados do banco*/
+  .edit_moda{
+    float: left;
+    width: 65px;
+    padding: 10px;
+    height: 65px;
+    margin-left: 6px;
+    background-color: gray;
+  }
+
+  /*div de itens que vem do banco*/
+  .item_moda {
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin-left: 6px;
+    overflow: auto;
+    background: green;
+    text-align: center;
+
+  }
+
+  /*Redimensionar a imagem*/
+  .item_moda img {
+    height: 240px;
+    width: 240px;
+  }
+
+  #div_linha {
+    min-height: 50px;
+    height: auto;
+    max-height: 300px;
+    width: 1200px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #segura_edit{
+    width: 25%;
+    height: 250px;
+    float: left;
+  }
+
+  #dados_bd {
+    overflow: auto;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+  }
+
+  textarea {
+    resize: none;
+  }
+
+  /*Altera tamanho do input de titulo*/
+  .item_l>input[type="text"] {
+    width: 300px;
+  }
+
+/*FIM MODA DO VERAO*/
+
+/*INICIO DE PRODUTOS*/
+  /*HOMEPRODUTOS*/
+  #main_produto{
+    width: 1200px;
+    min-height: 370px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #alinha_itens_produtos{
+    width: 400px;
+    height: 200px;
+    margin: auto;
+  }
+
+  #div_linha_prod {
+    display: flex;
+    height: 65px;
+  }
+
+  #segura_edit_prod {
+    display: flex;
+    width: 200px;
+  }
+
+
+  .item_prod {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 200px;
+    padding: 15px;
+    margin-left: 6px;
+    height: 20px;
+    margin-top: 10px;
+  }
+
+  .edit_prod {
+    display: flex;
+    width: 50px;
+    margin: 5px;
+    align-self: center;
+  }
+
+
+
+  /*NOVO PRODUTO */
+  #main_novo_produto{
+    width: 1200px;
+    min-height: 370px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+/*FIM DE PRODUTOS*/
+
+/*INICIO SABORES*/
+  #main_novo_sabor{
+    width: 1200px;
+    min-height: 370px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #segura_form_sabor{
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .item_form_sabor{
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #div_titulos_sabor{
+    height: 50px;
+    width: 1200px;
+    font-weight: bold;
+  }
+
+  #tit_sabor{
+    padding: 15px;
+    width: 240px;
+  }
+
+  .item_sabor{
+    float: left;
+    padding: 15px;
+    margin-top: 5px;
+    width: 600px;
+    margin-left: 10px;
+  }
+
+  .img_sabor{
+    float: left;
+    padding: 15px;
+    margin-left: 2px;
+    margin-top: 10px;
+    width: 100px;
+  }
+
+
+
+/*FIM SABORES*/
+
+/*INICIO AMBIENTES*/
+  #main_ambientes{
+    width: 1200px;
+    min-height: 300px;
+    height: auto;
+    margin: auto;
+  }
+/*FIM AMBIENTES*/
+
+/* PROMOÇÕES */
+  #dados_bd_promo{
+    width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #div_linha_promo {
+    display: flex;
+    height: 65px;
+  }
+
+  #segura_edit_promo {
+    display: flex;
+    width: 200px;
+  }
+  .item_promo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 200px;
+    padding: 15px;
+    margin-left: 4px;
+    height: 20px;
+    margin-top: 10px;
+  }
+
+  .edit_promo {
+    display: flex;
+    width: 50px;
+    margin: 5px;
+    align-self: center;
+  }
